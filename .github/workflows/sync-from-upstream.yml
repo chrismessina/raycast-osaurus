@@ -1,6 +1,10 @@
 name: Sync from upstream
 
-# TEMPLATE — copy to <mirror>/.github/workflows/sync-from-upstream.yml
+# TEMPLATE — canonical copy lives in raycast-extensions-skills:
+#   plugins/raycast-extensions/templates/sync-from-upstream.yml
+# Install it with scripts/setup-mirror.sh, not by copying a sibling mirror's copy:
+# the script also sets the repo settings the workflow depends on. Fix bugs HERE,
+# then re-run the script in each mirror.
 #
 # Reconciles a standalone mirror against the merged monorepo state, delivering
 # the two things Raycast CI produces ONLY on merge (the stamped {PR_MERGE_DATE}
@@ -46,7 +50,7 @@ name: Sync from upstream
 # listing — the listing only says what exists now, so a removed file is
 # invisible to it. See the deletion block in the compare step.
 #
-# STAGGER THE CRON MINUTE per repo. GitHub queues same-minute schedules across
+# STAGGER THE CRON MINUTE per repo (setup-mirror.sh derives it from the repo name). GitHub queues same-minute schedules across
 # all of Actions, and scheduled runs are already best-effort under load.
 
 on:
