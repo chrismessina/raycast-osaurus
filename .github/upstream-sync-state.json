@@ -1,6 +1,6 @@
 {
-  "upstream_commit": "8be51f0dc3b25644d4a0726493f238631adef4b7",
-  "synced_at": "2026-09-27T21:26:18Z",
+  "upstream_commit": "459326f4f557692a79246dba2d013746f56d724b",
+  "synced_at": "2026-11-17T18:46:49Z",
   "files": {
     ".gitignore": "d4dda5a282185828c206b6a1bb0c8892db1029c6",
     ".prettierrc": "fc0f5030683fa6196d08943646300755fce2f207",
@@ -19,7 +19,7 @@
     "metadata/osaurus-4.png": "9a8ed00bdc92a18d9c0b1b875b9411857fc5519c",
     "metadata/osaurus-5.png": "c70db8c1805ede804f1941e231945941a9822822",
     "package-lock.json": "ec2391b29242f48ede04e4ed7292657b5a9518ac",
-    "package.json": "655f3438ae7d3fe952b7d61bccd6ef5d86af8e87",
+    "package.json": "f5ac7ff31ba6f8e7526c78e14ebda19feb69e57d",
     "src/ask-osaurus.tsx": "71c61d5c367183e6ea3c9a36f947e42631a6e030",
     "src/components/ask.tsx": "e978d74282caa567874e8c7d0810fae1b639d9d2",
     "src/components/question-form.tsx": "cae25cdd12c678a8edc4f6d7160ce931fefcf74e",
